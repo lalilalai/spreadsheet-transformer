@@ -1,0 +1,25 @@
+{
+  "name": "lalilalai/spreadsheet-transformer",
+  "description": "Spreadsheet transformer to transform spreadsheet rows to objects",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lalilalai",
+      "email": "lalilalai.programmer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "lalilalai/spreadsheet": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lalilalai\\Spreadsheet\\Transformer\\": "src/",
+      "Lalilalai\\Spreadsheet\\Transformer\\Tests\\": "tests/"
+    }
+  },
+  "prefer-stable": true
+}
